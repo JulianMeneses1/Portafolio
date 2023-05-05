@@ -11,6 +11,12 @@
 }
 
 
+#contenedor-descripcion {
+    height: 120px;
+    overflow-y: auto;
+}
+
+
 .contenedor-texto a::after{
     content: "";
     position: absolute;
@@ -96,6 +102,13 @@ img:hover {
    img {
     height: 130px !important;
     width: 250px !important;
+    }
+
+    .contenedor-texto {         
+        height: 320px;  
+    }
+    #contenedor-descripcion {
+        height: 150px;
     }
 }
 
