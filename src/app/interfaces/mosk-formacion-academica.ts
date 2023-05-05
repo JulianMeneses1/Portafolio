@@ -43,19 +43,6 @@ export const Formaciones : Formacion [] = [ // Hacemos que la variable Formacion
     },
     {
         id:4,
-        nombre:"Desarrollo Web Full Stack", 
-        institucion: "Argentina Programa",
-        fecha_inicio:"Octubre 2022",
-        fecha_fin:"Actualidad",
-        descripcion:`Curso de 7 meses de duración en en donde aprendo los principales conceptos de desarrollo web Front End y Back End,
-                    empleando las siguientes tecnologías: HTML, CSS, TypeScript, Java y MySQL, y como frameworks usamos Bootstrap, Angular y Sping Boot. Todos estos conocimientos los aplico 
-                    en la elaboración de un Portfolio Web full, con back end y base de datos`,    
-        url_certificado: "",
-        url_institucion: "https://www.argentina.gob.ar/economia/conocimiento/argentina-programa",
-        imagen: "../assets/Logo Argentina Programa.png"
-    },
-    {
-        id:5,
         nombre:"Base de Datos - Python", 
         institucion: "Instituto Superior Politécnico Córdoba",
         fecha_inicio:"Agosto 2022",
@@ -67,6 +54,19 @@ export const Formaciones : Formacion [] = [ // Hacemos que la variable Formacion
         url_institucion: "https://www.ispc.edu.ar/",
         imagen: "../assets/Logo ISPC.jpeg"
     },
+    {
+        id:5,
+        nombre:"Programming Essentials in Python", 
+        institucion: "Instituto Superior Politécnico Córdoba",
+        fecha_inicio:"Marzo 2022",
+        fecha_fin:"Julio 2022",
+        descripcion:`Curso de 4 meses de duración en el que aprendí los fundamentos de Python, 
+                     con conceptos centrales como listas anidadas, diccionarios, etc.`,    
+        url_certificado: "https://drive.google.com/file/d/17XXlqFKv3LFMbnAqPK9syZe6016Qly7O/view?usp=share_link",
+        url_institucion: "https://www.ispc.edu.ar/",
+        imagen: "../assets/Logo ISPC.jpeg"
+    },
+    
     {
         id:6,
         nombre:"Profesorado de Historia", 
