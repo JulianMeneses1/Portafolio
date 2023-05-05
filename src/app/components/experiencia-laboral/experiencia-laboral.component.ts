@@ -15,8 +15,8 @@ import { Experiencias } from 'src/app/interfaces/mosk-experiencia-laboral';
 export class ExperienciaLaboralComponent implements OnInit {
 
   posicion_Y:string="0px";  
-  experiencias: Experiencia[] = Experiencias
-  experienciaSeleccionada!:Experiencia
+  experiencias: Experiencia[] = Experiencias;
+  experienciaSeleccionada:Experiencia = Experiencias [0];
   mostrarPrimerExp:boolean = true;
 
 
