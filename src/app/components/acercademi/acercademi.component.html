@@ -1,19 +1,16 @@
 <section class="d-flex justify-content-center align-items-center " id="acerca de mi"  >
     <div class="card" id="container" data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease-in-out">
         <div class="my-2 d-flex justify-content-between align-items-baseline" >                        
-            <h3><strong>ASD</strong></h3>                          
-            <fa-icon
-                    *ngIf="modoEdicion" 
-                    [icon]="faSquarePen"
-                    data-bs-toggle="modal" 
-                    data-bs-target="#acerca-de-mi-modal">
-            </fa-icon> 
+            <h3><strong>Sobre mí</strong></h3>                       
+            
         </div>        
         <div>
-            <p class="card-text">ASASDASDAS</p> 
+            <p class="card-text">Hola! Soy Julián, full-stack web developer. Empecé a incursionar en el mundo de la programación de forma autodidácta a partir de videos 
+                en YouTube, por allá a finales de 2021, y actualmente estoy estudiando la carrera de Desarrollo Web y Aplicaciones Digitales. Me apasiona el diseño y desarrollo de 
+                sitios y aplicaciones web dinámicos y creativos. Estoy en búsqueda de nuevos desafíos laborales que pongan a prueba mis conocimientos, y me permitan tanto seguir 
+                aprendiendo como continuar creciendo profesionalmente.
+            </p> 
         </div>                                                                     
     </div>
 </section> 
-<app-acerca-de-mi-modal
-(actualizarDatos)="actualizarAcercaDeMi($event)">
-</app-acerca-de-mi-modal>   
+

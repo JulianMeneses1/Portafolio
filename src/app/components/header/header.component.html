@@ -40,24 +40,7 @@
                             <button id="boton_cv" >Currículum</button>
                         </a>
                     </li>                    
-                </ul>  
-                <div class="d-flex justify-content-end me-2 mt-2">                    
-                    <button 
-                        id="boton_login" 
-                         
-                        data-bs-toggle="modal" 
-                        data-bs-target="#loginModal"
-                        *ngIf="!modoEdicion">
-                        Login 
-                    </button>
-                    <button                        
-                        id="boton_logout" 
-                        (click)="alternarEdicion()" 
-                        *ngIf="modoEdicion">
-                        Logout 
-                    </button>
-                                                                  
-                </div>                      
+                </ul>                                   
             </div>
         </div>        
     </nav>      
@@ -96,28 +79,9 @@
                         <button id="boton_cv" >Currículum</button>
                     </a>
                 </li>                    
-            </ul>  
-            <div class="d-flex justify-content-center" id="contenedor-login-logout-colapsado">                    
-                <button 
-                    id="boton_login" 
-                     
-                    data-bs-toggle="modal" 
-                    data-bs-target="#loginModal"
-                    *ngIf="!modoEdicion">
-                    Login 
-                </button>
-                <button                        
-                    id="boton_logout" 
-                    (click)="alternarEdicion(); cerrarMenu()"
-                    *ngIf="modoEdicion">
-                    Logout 
-                </button>
-                                                              
-            </div>
+            </ul>             
         </div>        
       </div>
     </div>
   </div>
-
-  <app-modal-login></app-modal-login>
 

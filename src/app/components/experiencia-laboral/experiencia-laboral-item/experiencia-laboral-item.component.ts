@@ -1,37 +1,27 @@
 import { Component} from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { Subscription } from 'rxjs';
 import { Experiencia } from 'src/app/interfaces/experiencia-laboral';
-import { ExpLaboralService } from 'src/app/services/exp-laboral.service';
+import { Experiencias } from 'src/app/interfaces/mosk-experiencia-laboral';
+
 
 @Component({
   selector: 'app-experiencia-laboral-item',
   templateUrl: './experiencia-laboral-item.component.html',
   styleUrls: ['./experiencia-laboral-item.component.css']
 })
-export class ExperienciaLaboralItemComponent { 
-  experiencia!:Experiencia;
-  experiencias !: Experiencia[];
-  
-  suscripcionActualizarExp?:Subscription;
- 
+export class ExperienciaLaboralItemComponent {
 
+  experiencia:Experiencia = Experiencias[0];
 
-  constructor(private ruta: ActivatedRoute,
-    private servicioExperiencia : ExpLaboralService) {
-
-      this.suscripcionActualizarExp = this.servicioExperiencia.onActualizarExpItem().subscribe(
-        value => this.experiencia = value)
-  } 
+  constructor(private ruta: ActivatedRoute) { } 
 
   ngOnInit () { 
       
       this.ruta.queryParams.subscribe(params=>{
-        this.servicioExperiencia.obtenerExperiencias().subscribe(data => {
-          this.experiencias=data;            
-          this.experiencia = this.experiencias [params['posicionExp']]
+                 
+          this.experiencia = Experiencias[params['idExp']-1]
       })
-    })  
+   
   }
   
 }

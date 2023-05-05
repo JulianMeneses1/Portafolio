@@ -1,24 +1,7 @@
 <section id="contacto" class="d-flex justify-content-center">
     <div id="container">        
         <div class="mb-4 d-flex justify-content-center align-items-baseline flex-wrap" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="ease-in-out">
-            <h3><strong>{{titulo.titulo}}</strong></h3>
-            <div class="ms-3">
-                <fa-icon
-                        *ngIf="modoEdicion"
-                        class="icono-edicion" 
-                        [icon]="faSquarePen"
-                        data-bs-toggle="modal" 
-                        data-bs-target="#contacto-modal-titulo">
-                </fa-icon>                
-                <fa-icon
-                    style="font-size: 2.3em"
-                    *ngIf="modoEdicion"
-                    class="icono-edicion"
-                    [icon]="faUserPen" 
-                    data-bs-toggle="modal" 
-                    data-bs-target="#contacto-modal-info">
-                </fa-icon>  
-            </div>          
+            <h3><strong>¡Espero tu mensaje!</strong></h3>                    
         </div>
         <div class="mt-4 d-flex" id="container-form-info" data-aos="zoom-in" data-aos-duration="800" data-aos-easing="ease-in-out" >
             <div id="container-form">                
@@ -131,27 +114,20 @@
             <div id="container-info">                
                 <div>                    
                     <label>Ubicación</label>                                       
-                    <p>{{persona.ubicacion}}</p>
+                    <p>Córdoba, Argentina</p>
                 </div>
                 <div class="my-4">
                     <label>Teléfono</label>                    
-                    <p  >{{persona.telefono}}</p>                   
+                    <p>+54 9 351-6565702</p>                   
                 </div>
                 <div style="margin-top: -2%">
                     <label>Correo</label>
-                    <p  >{{persona.email}}</p>
+                    <p>julian.meneses11@gmail.com</p>
                 </div>
             </div>
         </div>                  
     </div>
 </section>
-
-<app-contacto-modal
-    (actualizarTitulo)="modificarTitulo($event)">
-</app-contacto-modal> 
-<app-contacto-modal-info
-    (enModificarPersona)="modificarPersona($event)"
-></app-contacto-modal-info> 
 
 
 <!-- MODAL MAIL ENVIADO -->

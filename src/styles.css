@@ -35,36 +35,7 @@ footer {
     background: #000000;
     height: auto;
 }
-.textoModal, .etiquetaModal, .inputModal {
-    color:black !important
-}
 
-.etiquetaModal {
-    width: 30%
-}
-
-.inputModal2 {
-    overflow: auto;
-    height: 100px;   
-    max-height: 150px;
-    width: 70%;
-}
-
-.inputModal {
-    width: 70%
-}
-
-.mensajeErrorContacto{   
-    padding: 4px !important;       
-    width: 95%;
-    margin-left: 3%;
-    margin-bottom: 0px;
-    
-}
-
-.mensajeErrorFormularios{   
-    padding: 4px !important   
-}
 
 /*  Para anular el efecto del color negro y el fondo blanco del autollenado de los inputs (en realidad no lo anula sino que pospone su efecto 600000s, o sea 10000 minutos) */
 
@@ -109,19 +80,8 @@ input:-webkit-autofill, input:-webkit-autofill:focus {
 @media screen and (max-width:600px){
     section > #container {
         width: 87% !important;       
-    }
-   
-    .modal-body-div {
-        display: block !important;
-    }
-    
-    .etiquetaModal, .inputModal, .inputModal2, .etiquetaModal2 {
-        width: 100% !important;
-    }
-
-    .etiquetaModal, .etiquetaModal2{
-        font-weight: bold;
-    }
+    }  
+  
 }
 
 @media screen and (max-width:350px){

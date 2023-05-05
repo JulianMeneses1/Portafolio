@@ -9,10 +9,9 @@ import { Conocimiento } from 'src/app/interfaces/conocimiento';
   styleUrls: ['./conocimientos-item.component.css']
 })
 export class ConocimientosItemComponent implements OnInit{  
-  faX = faX;
-  faSquarePen = faSquarePen;
+ 
 
-  @Input () modoEdicion!:boolean;
+
   @Input() conocimiento!: Conocimiento;
 
   constructor() 

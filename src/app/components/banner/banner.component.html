@@ -1,14 +1,7 @@
 <div class="d-flex justify-content-center align-items-center" id="container">    
     <div 
         id="div-editar-banner"
-        class="d-flex align-items-start justify-content-end px-5"
-        *ngIf="modoEdicion">
-        <fa-icon
-            class="iconos-edicion" 
-            [icon]="faSquarePen" 
-            data-bs-toggle="modal" 
-            data-bs-target="#bannerModal">
-        </fa-icon>
+        class="d-flex align-items-start justify-content-end px-5">       
     </div>
     <img 
          
@@ -20,10 +13,10 @@
         <img 
             
             id="foto-perfil" 
-            src="../../../assets/Banner.jpg"
+            src="../../../assets/Foto Perfil.jpg"
             >       
-        <h2 >HOLA</h2>
-        <h5 > AS</h5>
+        <h2 >Julián Meneses</h2>
+        <h5 >Desarrollador Web Full Stack</h5>
     </div>    
 </div>
 <div id="contenedor-iconos-redes">
@@ -45,7 +38,3 @@
         </button>      
     </div>
 </div>
-<app-banner-modal   
-    (enActualizarBanner)="actualizarBanner($event)"    
->
-</app-banner-modal>

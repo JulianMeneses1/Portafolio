@@ -7,8 +7,7 @@ export interface Experiencia {
     fecha_inicio: string,
     fecha_fin: string,
     descripcion: string,
-    posicion_Y: string,
-    persona: object,
-    titulo_seccion: object 
+    posicion_Y: string
+
 
 }
