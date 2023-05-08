@@ -1,8 +1,4 @@
 
-.container-items-exp {
-    height: 270px;
-} 
-
 h3{
     color: lightblue;
 }
@@ -147,12 +143,6 @@ a:hover::after{
 
 
 @media screen and (max-width: 810px) {
-
-   
-    
-    #container {
-        height: 500px;
-    }
 
     #container-items-lista-exp{
         display: block !important

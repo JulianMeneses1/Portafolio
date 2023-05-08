@@ -18,10 +18,9 @@ export const Experiencias: Experiencia []  = [ // Hacemos que la variable Experi
         id: 2,
         puesto: "Secretario",
         nombre_empresa: "ByV Asociados",
-        url: "https://www.google.com.ar",
         fecha_inicio: "Septiembre 2017",
         fecha_fin: "Diciembre 2017",
-        descripcion: "Llevaba a cabo la tarea de llamar a clientes morosos para hacer un plan de financiación de sus deudas.",
+        descripcion: "Llevaba a cabo la tarea de contactar a clientes de diferentes empresas para refinanciar sus deudas.",
         posicion_Y: "exp-bar-Y--45"     
              
     }

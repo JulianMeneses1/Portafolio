@@ -60,6 +60,15 @@ button {
     filter: drop-shadow(0 0 7px lightblue)    
 }
 
+@media screen and (min-width:1400px) {
+    #contenedor-texto{
+        width: 60%;
+    }
+    #contenedor-imagen {
+        width: 40%;
+    }
+}
+
 @media screen and (max-width:900px) {
    #contenedor-texto{    
     position: absolute;
