@@ -5,6 +5,7 @@ export interface Proyecto {
     imagen: string,
     descripcion: string,
     url_github: string,
+    url_github2?: string,
     url_sitio_web?: string,
     tecnologias: any
 }

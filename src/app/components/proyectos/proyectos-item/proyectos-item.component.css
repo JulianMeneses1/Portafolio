@@ -82,6 +82,10 @@ button {
     width: 100%;
     margin-right: 0px;    
    }
+   .contenedor-tecnologias-iconos {
+        padding-left:5px
+   }
+ 
    #contenedor-texto:hover{
     background-color: rgba(0, 0, 0, 0.7);
     opacity: 1;       

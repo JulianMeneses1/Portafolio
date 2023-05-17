@@ -17,9 +17,22 @@
         <div class="d-flex gap-3">
           <label *ngFor="let tecnologia of proyecto.tecnologias">{{tecnologia}}</label>
         </div>    
-        <div class="contenedor-iconos d-flex gap-1">          
+        <!-- Si el proyecto tiene un segundo repo de github -->
+        <div *ngIf="!proyecto.url_github2" class="contenedor-iconos d-flex gap-1">          
           <a href="{{proyecto.url_github}}" target="_blank" title="GitHub">         
               <img class="iconos" id="icono-github" src="../assets/GitHub.png">                    
+          </a>          
+          <a *ngIf="proyecto.url_sitio_web" href="{{proyecto.url_sitio_web}}" target="_blank" title="Link Externo"> 
+            <fa-icon class="iconos" id="icono-flecha" [icon]="faArrow"></fa-icon> 
+          </a>          
+        </div>
+        <!-- Si el proyecto tiene un solo repo de github -->
+        <div *ngIf="proyecto.url_github2" class="contenedor-iconos d-flex gap-1">          
+          <a href="{{proyecto.url_github}}" target="_blank" title="GitHub Front">         
+              <img class="iconos" id="icono-github" src="../assets/GitHub.png">                    
+          </a>
+          <a href="{{proyecto.url_github2}}" target="_blank" title="GitHub Back">         
+            <img class="iconos" id="icono-github" src="../assets/GitHub.png">                    
           </a>
           <a *ngIf="proyecto.url_sitio_web" href="{{proyecto.url_sitio_web}}" target="_blank" title="Link Externo"> 
             <fa-icon class="iconos" id="icono-flecha" [icon]="faArrow"></fa-icon> 
