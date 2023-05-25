@@ -13,12 +13,13 @@
 
 .animacion-menu{    
     transform: translateY(0px);
-    transition: transform 0.3s ease;
+    transition: transform 0.4s ease;
             
 }
 
 .ocultar-menu{
-    transform: translateY(-78px)
+    transform: translateY(-78px);
+    transition: transform 0.4s ease;
 }
 
 #menu {
