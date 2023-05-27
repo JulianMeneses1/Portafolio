@@ -1,4 +1,4 @@
-import { Formacion } from "./formacion-academica";
+import { Formacion } from "../interfaces/formacion-academica";
 
 
 export const Formaciones : Formacion [] = [ // Hacemos que la variable FormacionAcademica sea un array de interfaces Task, es decir que cada objeto tiene que cumplir con la estructura definida en la interfaz

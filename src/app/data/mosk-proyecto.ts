@@ -1,4 +1,4 @@
-import { Proyecto } from "./proyecto"
+import { Proyecto } from "../interfaces/proyecto"
 
 export const Proyectos : Proyecto [] = [ 
 
@@ -12,11 +12,22 @@ export const Proyectos : Proyecto [] = [
         url_github: "https://github.com/JulianMeneses1/Portfolio-FrontEnd",
         url_github2: "https://github.com/JulianMeneses1/Portfolio-BackEnd",
         url_sitio_web: "https://portafolio-frontend-julian.web.app/",
-        tecnologias: ["Angular", "Spring Boot", "MySQL", "Hibernate", "JPA"],
-            
+        tecnologias: ["Angular", "Spring Boot", "MySQL"],            
     },
     {
         id:2,
+        nombre:"Aplicación Gestión de Personas",        
+        imagen: "../assets/App Personas.png",
+        descripcion: `Un sitio web para gestionar personas, donde además de poder visualizarlas en una tabla con paginación y filtros, y en un gráfico
+        de cantidad de personas por países, generado con chart.js, se puede eliminar, modificar o agregar personas. `,
+        url_github: "https://github.com/JulianMeneses1/Challenge-Flex-Tech/tree/main/Front",
+        url_github2: "https://github.com/JulianMeneses1/BackAppPersonas",
+        url_sitio_web: "https://app-personas-c02fb.web.app/",
+        tecnologias: ["Angular", "Spring Boot", "MySQL"],
+  
+    },
+    {
+        id:3,
         nombre:"Base de Datos Universidad",        
         imagen: "../assets/Base de datos.png",
         descripcion: `Una base de datos relacional para una universidad ficticia que incluye relaciones 1-N y N-N, 
@@ -26,7 +37,7 @@ export const Proyectos : Proyecto [] = [
   
     },
     {
-        id:3,
+        id:4,
         nombre:"Psico Finder",        
         imagen: "../assets/Psico Finder.png",
         descripcion: `Un proyecto colectivo de un sitio web en donde podés encontrar el profesional de la salud mental que mejor se ajuste a tus preferencias. 

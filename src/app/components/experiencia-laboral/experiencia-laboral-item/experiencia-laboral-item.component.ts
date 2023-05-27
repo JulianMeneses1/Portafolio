@@ -1,7 +1,7 @@
 import { Component} from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Experiencia } from 'src/app/interfaces/experiencia-laboral';
-import { Experiencias } from 'src/app/interfaces/mosk-experiencia-laboral';
+import { Experiencias } from 'src/app/data/mosk-experiencia-laboral';
 
 
 @Component({

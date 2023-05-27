@@ -1,4 +1,4 @@
-import { Experiencia } from "./experiencia-laboral"
+import { Experiencia } from "../interfaces/experiencia-laboral"
 
 export const Experiencias: Experiencia []  = [ // Hacemos que la variable Experiencias sea un array de interfaces Task, es decir que cada objeto tiene que cumplir con la estructura definida en la interfaz
 

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Conocimiento } from 'src/app/interfaces/conocimiento';
-import { Conocimientos } from 'src/app/interfaces/mosk-conocimientos';
+import { Conocimientos } from 'src/app/data/mosk-conocimientos';
 
 
 @Component({

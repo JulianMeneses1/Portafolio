@@ -2,7 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 import { faSquarePen } from '@fortawesome/free-solid-svg-icons';
 import { Proyecto } from 'src/app/interfaces/proyecto';
 import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
-import { Proyectos } from 'src/app/interfaces/mosk-proyecto';
+import { Proyectos } from 'src/app/data/mosk-proyecto';
 
 
 @Component({

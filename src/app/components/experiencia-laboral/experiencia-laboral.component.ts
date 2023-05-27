@@ -1,10 +1,7 @@
-import { Component, OnInit, Output, EventEmitter} from '@angular/core';
-import { faSquarePen, faPlus, faX } from '@fortawesome/free-solid-svg-icons';
-
-import { Subscription } from 'rxjs';
+import { Component, OnInit } from '@angular/core';
 import { Experiencia } from 'src/app/interfaces/experiencia-laboral';
 import { Router } from '@angular/router';
-import { Experiencias } from 'src/app/interfaces/mosk-experiencia-laboral';
+import { Experiencias } from 'src/app/data/mosk-experiencia-laboral';
 
 
 @Component({

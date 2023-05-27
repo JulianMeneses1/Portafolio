@@ -1,7 +1,7 @@
 import { Component, OnInit, Input} from '@angular/core';
 import { Formacion } from 'src/app/interfaces/formacion-academica';
 import { faSquarePen } from '@fortawesome/free-solid-svg-icons';
-import { Formaciones } from 'src/app/interfaces/mosk-formacion-academica';
+import { Formaciones } from 'src/app/data/mosk-formacion-academica';
 
 @Component({
   selector: 'app-formacion-academica-item',

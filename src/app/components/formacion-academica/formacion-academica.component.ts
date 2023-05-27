@@ -2,7 +2,7 @@ import { Component, OnInit} from '@angular/core';
 import { faSquarePen } from '@fortawesome/free-solid-svg-icons';
 import { Subscription } from 'rxjs';
 import { Formacion } from 'src/app/interfaces/formacion-academica';
-import { Formaciones } from 'src/app/interfaces/mosk-formacion-academica';
+import { Formaciones } from 'src/app/data/mosk-formacion-academica';
 
 
 @Component({

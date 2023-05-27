@@ -1,4 +1,4 @@
-import {Conocimiento} from "./conocimiento"
+import {Conocimiento} from "../interfaces/conocimiento"
 
 export const Conocimientos: Conocimiento []= [
 
@@ -40,7 +40,7 @@ export const Conocimientos: Conocimiento []= [
         id:6,
         nombre:"Python",        
         imagen: "../assets/Python.png",
-        nivel: "skills-bar--80"   
+        nivel: "skills-bar--60"   
              
     },
     {
