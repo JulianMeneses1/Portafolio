@@ -61,7 +61,7 @@ Great, now you only need to install the libraries that are used in this project.
 ```
   ng serve
 ```
-## Collaboration
+## 4. :wave: Collaboration
 ***
 Feel free to make any suggestion that you think can help improve the quality of the project! This is my first proyect so I don't doubt it can be improved in many different ways, that's why I keep working on this and if you think you can help better :grinning:
 
