@@ -1,7 +1,7 @@
-# Portafolio Application
+# Portafolio
 ***
 ## 1. :notebook_with_decorative_cover: General Info
-This project is a website that contains all the relevant profesional information about me, like my laboral experience, the technologies I know, etc. 
+This project is a static website that contains all the relevant profesional information about me, like my laboral experience, the technologies I know, etc. 
 
 Status: ACTIVE :heavy_check_mark:
 
