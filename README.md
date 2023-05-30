@@ -20,6 +20,7 @@ Here are the technologies and libraries used in this project:
 * [AOS](https://michalsnik.github.io/aos/): Version 2.3.4
 * [jQuery](https://jquery.com/): Version 3.6.4
 * [FontAwesome](https://fontawesome.com/): Version 0.12.1
+* [Bootstrap](https://getbootstrap.com/): Version 5.2.3
 ## 3. :hammer_and_wrench: Installation
 ***
 First of all you need to install NodeJS, for that go the official page of NodeJS (https://nodejs.org/es) and follow the instructions to install this technologie in your system, which includes npm. 
