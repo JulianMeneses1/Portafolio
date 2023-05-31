@@ -1,12 +1,12 @@
-# Portafolio Application
+# Portafolio
 ***
 ## 1. :notebook_with_decorative_cover: General Info
-This project is a website that contains all the relevant profesional information about me, like my laboral experience, the technologies I know, etc. 
+This project is a static website that contains all the relevant profesional information about me, like my laboral experience, the technologies I know, etc. 
 
 Status: ACTIVE :heavy_check_mark:
 
 ### Screenshot
-![Portafolio](src/assets/Screenshot%20Portafolio.png)
+![Portafolio](src/assets/Screenshot%20Portfolio.png)
 
 ## 2. :gear: Technologies/Libraries
 ***
@@ -20,6 +20,7 @@ Here are the technologies and libraries used in this project:
 * [AOS](https://michalsnik.github.io/aos/): Version 2.3.4
 * [jQuery](https://jquery.com/): Version 3.6.4
 * [FontAwesome](https://fontawesome.com/): Version 0.12.1
+* [Bootstrap](https://getbootstrap.com/): Version 5.2.3
 ## 3. :hammer_and_wrench: Installation
 ***
 First of all you need to install NodeJS, for that go the official page of NodeJS (https://nodejs.org/es) and follow the instructions to install this technologie in your system, which includes npm. 
@@ -60,7 +61,7 @@ Great, now you only need to install the libraries that are used in this project.
 ```
   ng serve
 ```
-## Collaboration
+## 4. :wave: Collaboration
 ***
 Feel free to make any suggestion that you think can help improve the quality of the project! This is my first proyect so I don't doubt it can be improved in many different ways, that's why I keep working on this and if you think you can help better :grinning:
 
