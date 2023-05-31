@@ -20,8 +20,7 @@ export const Proyectos : Proyecto [] = [
         imagen: "../assets/App Personas.png",
         descripcion: `Un sitio web para gestionar personas, donde además de poder visualizarlas en una tabla con paginación y filtros, y en un gráfico
         de cantidad de personas por países, generado con chart.js, se puede eliminar, modificar o agregar personas. `,
-        url_github: "https://github.com/JulianMeneses1/Challenge-Flex-Tech/tree/main/Front",
-        url_github2: "https://github.com/JulianMeneses1/BackAppPersonas",
+        url_github: "https://github.com/JulianMeneses1/App-Personas",
         url_sitio_web: "https://app-personas-c02fb.web.app/",
         tecnologias: ["Angular", "Spring Boot", "MySQL"],
   
