@@ -12,7 +12,7 @@ export const Proyectos : Proyecto [] = [
         url_github: "https://github.com/JulianMeneses1/Portfolio-FrontEnd",
         url_github2: "https://github.com/JulianMeneses1/Portfolio-BackEnd",
         url_sitio_web: "https://portafolio-frontend-julian.web.app/",
-        tecnologias: ["Angular", "Spring Boot", "MySQL"],            
+        tecnologias: ["Angular", "Spring Boot", "Hibernate", "MySQL"],            
     },
     {
         id:2,
@@ -22,7 +22,7 @@ export const Proyectos : Proyecto [] = [
         de cantidad de personas por países, generado con chart.js, se puede eliminar, modificar o agregar personas. `,
         url_github: "https://github.com/JulianMeneses1/App-Personas",
         url_sitio_web: "https://app-personas-c02fb.web.app/",
-        tecnologias: ["Angular", "Spring Boot", "MySQL"],
+        tecnologias: ["Angular", "Spring Boot", "Hibernate", "MySQL"],
   
     },
     {
