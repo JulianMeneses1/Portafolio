@@ -18,11 +18,10 @@
     content: "";
     position: absolute;
     height: 9px;    
-    background-color: rgb(46, 46, 192);
-    transition: all 3s ease;
+    background-color: rgb(46, 46, 192);    
     width: 100%;
     left: -100%;
-    animation: skills-bar-fill 2s ease forwards;
+    animation: skills-bar-fill 3s ease forwards;
     overflow: hidden;
 
 }
