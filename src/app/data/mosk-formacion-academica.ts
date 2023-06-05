@@ -13,15 +13,14 @@ export const Formaciones : Formacion [] = [ // Hacemos que la variable Formacion
                       empleando las siguientes tecnologías: HTML, CSS, TypeScript, Python y MySQL, y como frameworks usamos Bootstrap, Angular y Django. Todos estos conocimientos los aplicamos 
                       en la elaboración grupal de un proyecto de sitio web aplicando la metodología Scrum`,
         url_institucion: "https://www.ispc.edu.ar/",
-        imagen: "../assets/Logo ISPC.jpeg"       
-       
+        imagen: "../assets/Logo ISPC.jpeg"    
     },    
     {
         id:2,
         nombre:"Desarrollo Web Full Stack", 
         institucion: "Argentina Programa",
         fecha_inicio:"Octubre 2022",
-        fecha_fin:"Actualidad",
+        fecha_fin:"Mayo 2023",
         descripcion:`Curso de 7 meses de duración en en donde aprendo los principales conceptos de desarrollo web Front End y Back End,
                     empleando las siguientes tecnologías: HTML, CSS, TypeScript, Java y MySQL, y como frameworks usamos Bootstrap, Angular y Sping Boot. Todos estos conocimientos los aplico 
                     en la elaboración de un Portfolio Web con una base de datos y un login.`,    

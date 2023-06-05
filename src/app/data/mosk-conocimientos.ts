@@ -31,6 +31,12 @@ export const Conocimientos: Conocimiento []= [
     },
     {
         id:5,
+        nombre:"React",        
+        imagen: "../assets/React.png",
+        nivel: "skills-bar--60"                
+    },
+    {
+        id:5,
         nombre:"Angular",        
         imagen: "../assets/Angular.png",
         nivel: "skills-bar--70"   

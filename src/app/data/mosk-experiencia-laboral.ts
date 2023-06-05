@@ -9,8 +9,8 @@ export const Experiencias: Experiencia []  = [ // Hacemos que la variable Experi
         url: "https://procomitsolutions.com/es",
         fecha_inicio: "Septiembre 2022",
         fecha_fin: "Actualidad",
-        descripcion: `Me desempeño como desarrollador de apps para escritorio y móviles a través de las herramientas Power Apps y Power Automate de Power Platform, perteneciente a Microsoft.
-        Trabajo en un equipo interdisciplinario con la metodología Scrum, teniendo reuniones diarias y sprints cada dos o tres semanas.`,
+        descripcion: `Me desempeño como desarrollador de apps para escritorio y móviles y automatizador de procesos empresariales a través de las herramientas Power Apps, Power Automate, Dataverse y Sharepoint de Power Platform, perteneciente a Microsoft.
+        Trabajo en un equipo interdisciplinario con la metodología Scrum, teniendo reuniones diarias y sprints cada dos semanas.`,
         posicion_Y: "exp-bar-Y--0"
             
     },    
