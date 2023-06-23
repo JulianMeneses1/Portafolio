@@ -15,6 +15,12 @@ export class FormacionAcademicaComponent implements OnInit {
   faSquarePen = faSquarePen;
   suscripcionAlternarEdicion?:Subscription;
   formaciones: Formacion[] = Formaciones
+  showAllItems: boolean = false;
+
+  toggleShowAllItems ()  {
+    this.showAllItems = !this.showAllItems;
+    console.log(this.showAllItems)
+  }
 
   
 

@@ -12,8 +12,9 @@ export class FormacionAcademicaItemComponent implements OnInit {
 
   faSquarePen = faSquarePen;
 
-
   @Input() formacion: Formacion = Formaciones[0]
+  @Input() i: number = 0;
+  @Input() showAllItems: boolean = false;
 
   constructor() { }
 

@@ -27,6 +27,20 @@ h3{
 }
 
 
+#show-more-button:hover{
+    color: white !important;    
+}
+
+#show-more-button:focus{
+    border: none !important;    
+}
+
+#show-more-button{
+    color: gray;
+}
+
+
+
 a:link, a:visited{
     color: white;
     text-decoration: none;

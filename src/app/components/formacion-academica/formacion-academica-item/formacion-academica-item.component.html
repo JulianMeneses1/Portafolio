@@ -1,4 +1,4 @@
-<div class="d-flex flex-wrap contenedor">    
+<div *ngIf="i < 3 || showAllItems" class="my-3 d-flex flex-wrap contenedor" data-aos="fade-right" data-aos-duration="800" data-aos-easing="ease-in-out">    
     <div class="w-25 d-flex flex-wrap justify-content-center align-items-center contenedor-imagen-fecha px-2" >
         <div class="d-flex align-items-center justify-content-center text-center w-100 mb-2" style="height: 50px">
             <p>{{formacion.fecha_inicio}} - {{formacion.fecha_fin}}</p>
@@ -24,9 +24,9 @@
             target="_blank"
             style="margin-top:15px; margin-bottom: 0px;">
             @ Certificado
-        </a>
-     
+        </a>     
     </div>
 </div>
+
 
    

@@ -11,7 +11,7 @@ export const Formaciones : Formacion [] = [ // Hacemos que la variable Formacion
         fecha_fin:"Actualidad",
         descripcion: `Tecnicatura de 2 años y medio de duración en donde aprendo los principales conceptos de desarrollo web Front End y Back End,
                       empleando las siguientes tecnologías: HTML, CSS, TypeScript, Python y MySQL, y como frameworks usamos Bootstrap, Angular y Django. Todos estos conocimientos los aplicamos 
-                      en la elaboración grupal de un proyecto de sitio web aplicando la metodología Scrum`,
+                      en la elaboración grupal de un proyecto de sitio web aplicando la metodología Scrum.`,
         url_institucion: "https://www.ispc.edu.ar/",
         imagen: "../assets/Logo ISPC.jpeg"    
     },    
@@ -21,8 +21,8 @@ export const Formaciones : Formacion [] = [ // Hacemos que la variable Formacion
         institucion: "Argentina Programa",
         fecha_inicio:"Octubre 2022",
         fecha_fin:"Mayo 2023",
-        descripcion:`Curso de 7 meses de duración en en donde aprendo los principales conceptos de desarrollo web Front End y Back End,
-                    empleando las siguientes tecnologías: HTML, CSS, TypeScript, Java y MySQL, y como frameworks usamos Bootstrap, Angular y Sping Boot. Todos estos conocimientos los aplico 
+        descripcion:`Curso de 7 meses de duración en donde aprendí los principales conceptos de desarrollo web Front End y Back End,
+                    empleando las siguientes tecnologías: HTML, CSS, TypeScript, Java y MySQL, y como frameworks usé Bootstrap, Angular y Sping Boot. Todos estos conocimientos los apliqué 
                     en la elaboración de un Portfolio Web con una base de datos y un login.`,    
         url_certificado: "",
         url_institucion: "https://www.argentina.gob.ar/economia/conocimiento/argentina-programa",
@@ -30,6 +30,20 @@ export const Formaciones : Formacion [] = [ // Hacemos que la variable Formacion
     },
     {
         id:3,
+        nombre:"React + Spring Boot",
+        institucion: "Udemy",
+        fecha_inicio:"Mayo 2023",
+        fecha_fin:"Junio 2023",
+        descripcion: `Curso en el que aprendí principios básicos e intermedios de React, desde el uso de hooks como useEffect y 
+                      useState hasta la implementación de Redux. A su vez también adquirí nuevos conocimientos
+                      sobre Spring Boot, como la implementación de roles en una autenticación con JWT. Todos estos conocimientos 
+                      los apliqué en la creación de una aplicación ecommerce full, con despliegue en AWS.`,
+        url_certificado: "https://drive.google.com/file/d/1D7D4tay34U5HP0eGG3-yMGz5CYHh3v3L/view?usp=sharing",
+        url_institucion: "https://www.udemy.com/",
+        imagen: "../assets/Logo Udemy.jpg"    
+    },
+    {
+        id:4,
         nombre:"Power Platform App Maker Associate", 
         institucion: "Microsoft",
         fecha_inicio:"Febrero 2023",
@@ -41,7 +55,7 @@ export const Formaciones : Formacion [] = [ // Hacemos que la variable Formacion
         imagen: "../assets/Logo Microsoft.webp"
     },
     {
-        id:4,
+        id:5,
         nombre:"Base de Datos - Python", 
         institucion: "Instituto Superior Politécnico Córdoba",
         fecha_inicio:"Agosto 2022",
@@ -54,7 +68,7 @@ export const Formaciones : Formacion [] = [ // Hacemos que la variable Formacion
         imagen: "../assets/Logo ISPC.jpeg"
     },
     {
-        id:5,
+        id:6,
         nombre:"Programming Essentials in Python", 
         institucion: "Instituto Superior Politécnico Córdoba",
         fecha_inicio:"Marzo 2022",
@@ -67,7 +81,7 @@ export const Formaciones : Formacion [] = [ // Hacemos que la variable Formacion
     },
     
     {
-        id:6,
+        id:7,
         nombre:"Profesorado de Historia", 
         institucion: "Universidad Nacional de Córdoba",
         fecha_inicio:"Marzo 2018",

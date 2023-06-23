@@ -4,6 +4,17 @@ export const Proyectos : Proyecto [] = [
 
     {
         id:1,
+        nombre:"Aplicación Ecommerce",        
+        imagen: "../assets/test.png",
+        descripcion: `Un sitio web ecommerce para comprar productos informáticos. Incluye login con JWT, roles (user y admin) con diferentes privilegios, 
+                      carrito de compra, posibilidad de editar los productos cargados en la base de datos y pago con la API de Paypal.`,
+        url_github: "https://github.com/JulianMeneses1/App-Ecommerce/tree/main",
+        url_sitio_web: "http://informatik.s3-website-us-east-1.amazonaws.com/",
+        tecnologias: ["React", "Sping Boot", "MySQL", "Redux", "AWS"],
+            
+    },
+    {
+        id:2,
         nombre:"Aplicación Portafolio",        
         imagen: "../assets/Aplicacion Portafolio.png",
         descripcion: `Versión alternativa de este portafolio con posibilidad de edición online de las diferentes secciones a través de la conexión a una 
@@ -15,7 +26,7 @@ export const Proyectos : Proyecto [] = [
         tecnologias: ["Angular", "Spring Boot", "Hibernate", "MySQL"],            
     },
     {
-        id:2,
+        id:3,
         nombre:"Aplicación Gestión de Personas",        
         imagen: "../assets/App Personas.png",
         descripcion: `Un sitio web para gestionar personas, donde además de poder visualizarlas en una tabla con paginación y filtros, y en un gráfico
@@ -26,7 +37,7 @@ export const Proyectos : Proyecto [] = [
   
     },
     {
-        id:3,
+        id:4,
         nombre:"Base de Datos Universidad",        
         imagen: "../assets/Base de datos.png",
         descripcion: `Una base de datos relacional para una universidad ficticia que incluye relaciones 1-N y N-N, 
@@ -35,17 +46,6 @@ export const Proyectos : Proyecto [] = [
         tecnologias: ["Python", "SQLAlchemy", "MySQL"],
   
     },
-    {
-        id:4,
-        nombre:"Psico Finder",        
-        imagen: "../assets/Psico Finder.png",
-        descripcion: `Un proyecto colectivo de un sitio web en donde podés encontrar el profesional de la salud mental que mejor se ajuste a tus preferencias. 
-                      En este proyecto estuve a cargo de la mayor parte del diseño así como de la validación de
-                      los formularios de registro de usuarios y profesionales.`,
-        url_github: "https://github.com/oliverio97/Proyecto-integrador---ISPC",
-        url_sitio_web: "https://oliverio97.github.io/Proyecto-integrador---ISPC/Front%20End%20(Vista)/index.html",
-        tecnologias: ["HTML", "CSS", "Bootstrap", "JavaScript"],
-            
-    },
+   
    
 ]
