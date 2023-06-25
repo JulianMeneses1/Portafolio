@@ -10,7 +10,7 @@ export const Proyectos : Proyecto [] = [
                       carrito de compra, posibilidad de editar los productos cargados en la base de datos y pago con la API de Paypal.`,
         url_github: "https://github.com/JulianMeneses1/App-Ecommerce/tree/main",
         url_sitio_web: "http://informatik.s3-website-us-east-1.amazonaws.com/",
-        tecnologias: ["React", "Sping Boot", "MySQL", "Redux", "AWS"],
+        tecnologias: ["React", "Spring Boot", "MySQL", "Redux", "AWS"],
             
     },
     {
@@ -27,7 +27,7 @@ export const Proyectos : Proyecto [] = [
     },
     {
         id:3,
-        nombre:"Aplicación Gestión de Personas",        
+        nombre:"Aplicación Personas",        
         imagen: "../assets/App Personas.png",
         descripcion: `Un sitio web para gestionar personas, donde además de poder visualizarlas en una tabla con paginación y filtros, y en un gráfico
         de cantidad de personas por países, generado con chart.js, se puede eliminar, modificar o agregar personas. `,
