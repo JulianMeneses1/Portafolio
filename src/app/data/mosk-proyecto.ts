@@ -5,7 +5,7 @@ export const Proyectos : Proyecto [] = [
     {
         id:1,
         nombre:"Aplicación Ecommerce",        
-        imagen: "../assets/test.png",
+        imagen: "../assets/App Ecommerce.png",
         descripcion: `Un sitio web ecommerce para comprar productos informáticos. Incluye login con JWT, roles (user y admin) con diferentes privilegios, 
                       carrito de compra, posibilidad de editar los productos cargados en la base de datos y pago con la API de Paypal.`,
         url_github: "https://github.com/JulianMeneses1/App-Ecommerce/tree/main",
