@@ -14,6 +14,17 @@ export const Proyectos : Proyecto [] = [
             
     },
     {
+        id:5,
+        nombre:"Aplicación Blog",        
+        imagen: "../assets/App Blog.png",
+        descripcion: `Un blog con artículos sobre diferentes temáticas actuales. Incluye infinity scroll, gestión de estados con NgRx (que se inspira en Redux), 
+                      posibilidad de filtrar los artículos por categoría y por título, y además los artículos se pueden editar, crear y borrar.`,
+        url_github: "https://github.com/JulianMeneses1/App-Blog",
+        url_sitio_web: "https://app-blog-ed9ac.web.app/home",
+        tecnologias: ["Angular", "Node.js", "MongoDB", "NgRx"],
+            
+    },
+    {
         id:2,
         nombre:"Aplicación Portafolio",        
         imagen: "../assets/Aplicacion Portafolio.png",

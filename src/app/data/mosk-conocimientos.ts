@@ -59,26 +59,41 @@ export const Conocimientos: Conocimiento []= [
     {
         id:8,
         nombre:"Spring Boot",        
-        imagen: "../assets/Spring Boot.webp",
+        imagen: "../assets/Spring Boot.png",
         nivel: "skills-bar--70"   
              
     },
     {
         id:9,
+        nombre:"Node",        
+        imagen: "../assets/Node.png",
+        nivel: "skills-bar--60"   
+             
+    },
+    {
+        id:10,
+        nombre:"MongoDB",        
+        imagen: "../assets/Mongo.png",
+        nivel: "skills-bar--60"              
+    },
+
+
+    {
+        id:11,
         nombre:"MySQL",        
         imagen: "../assets/MySQL.png",
         nivel: "skills-bar--70" 
              
     },
     {
-        id:10,
+        id:12,
         nombre:"GIT",        
         imagen: "../assets/GIT.png",
         nivel: "skills-bar--60"  
              
     },
     {
-        id:11,
+        id:13,
         nombre:"Inglés",        
         imagen: "../assets/Ingles.png",
         nivel: "skills-bar--90"   
