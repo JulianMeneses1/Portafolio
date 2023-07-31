@@ -6,7 +6,7 @@ This project is a static website that contains all the relevant profesional info
 Status: ACTIVE :heavy_check_mark:
 
 ### Screenshot
-![Portafolio](src/assets/Aplicacion%20Portafolio.png)
+![Portafolio](src/assets/Portafolio.png)
 
 ## 2. :gear: Technologies/Libraries
 ***
