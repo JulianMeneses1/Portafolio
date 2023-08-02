@@ -33,7 +33,6 @@ export const Proyectos : Proyecto [] = [
                       contraseña encriptada, CRUD para los items de las diferentes secciones y diagramas UML.`,
         url_github: "https://github.com/JulianMeneses1/Portfolio-FrontEnd",
         url_github2: "https://github.com/JulianMeneses1/Portfolio-BackEnd",
-        url_sitio_web: "https://portafolio-frontend-julian.web.app/",
         tecnologias: ["Angular", "Spring Boot", "Hibernate", "MySQL"],            
     },
     {
