@@ -5,24 +5,25 @@ export const Experiencias: Experiencia []  = [ // Hacemos que la variable Experi
     {
         id: 1,
         puesto: "Power Platform Developer",
-        nombre_empresa: "Procom IT Solutions",
-        url: "https://procomitsolutions.com/es",
-        fecha_inicio: "Septiembre 2022",
+        nombre_empresa: "Wemox",
+        url: "https://www.cedi.com.ar/",
+        fecha_inicio: "Agosto 2023",
         fecha_fin: "Actualidad",
-        descripcion: `Me desempeño como automatizador de procesos empresariales y como desarrollador de aplicaciones, estando a cargo 
-        tanto de la funcionalidad como del diseño. Para ello uso las herramientas Power Apps, Power Automate, Dataverse, Sharepoint y Power BI de Power Platform, perteneciente a Microsoft.
-        Trabajo en un equipo bajo un líder, con reuniones diarias.`,
-        posicion_Y: "exp-bar-Y--0"
-            
+        descripcion: `Desarrollo de soluciones de software con las herramientas de Dynamics 365 
+        y Power Platform, incluyendo Power Apps, Power Automate y Dataverse, entre otras. 
+        Se emplea la metodología Scrum en la organización de los equipos de trabajo.`,
+        posicion_Y: "exp-bar-Y--0"            
     },    
     {
         id: 2,
-        puesto: "Secretario",
-        nombre_empresa: "ByV Asociados",
-        fecha_inicio: "Septiembre 2017",
-        fecha_fin: "Diciembre 2017",
-        descripcion: "Llevaba a cabo la tarea de contactar a clientes de diferentes empresas para refinanciar sus deudas.",
-        posicion_Y: "exp-bar-Y--45"     
-             
+        puesto: "Power Platform Developer",
+        nombre_empresa: "Procom IT Solutions",
+        url: "https://procomitsolutions.com/es",
+        fecha_inicio: "Septiembre 2022",
+        fecha_fin: "Agosto 2023",
+        descripcion: `Desarrollo de apps y automatización de procesos empresariales 
+        mediante las herramientas Power Apps, Power Automate, 
+        Sharepoint y Dataverse, pertenecientes a Power Platform.`,
+        posicion_Y: "exp-bar-Y--45"              
     }
 ]
