@@ -14,7 +14,7 @@ export const Proyectos : Proyecto [] = [
             
     },
     {
-        id:5,
+        id:2,
         nombre:"Aplicación Blog",        
         imagen: "../assets/App Blog.png",
         descripcion: `Un blog con artículos sobre diferentes temáticas actuales. Incluye infinity scroll, gestión de estados con NgRx (que se inspira en Redux), 
@@ -25,7 +25,19 @@ export const Proyectos : Proyecto [] = [
             
     },
     {
-        id:2,
+        id:3,
+        nombre:"Board Game Friends",        
+        imagen: "../assets/Página BGF.png",
+        descripcion: `Un sitio web para promover el financiamiento de una aplicación móvil diseñada para coordinar 
+        encuentros para jugar juegos de mesa. Esta página web es principalmente estática y se ha desarrollado utilizando React, 
+        con la excepción de la funcionalidad de envío de correos electrónicos en el formulario de contacto, que se ha implementado utilizando Java.`,
+        url_github: "https://github.com/JulianMeneses1/Website-Board-Games-Friends",
+        url_sitio_web: "https://boardgamefriendsapp.com",
+        tecnologias: ["React", "Spring Boot"],
+            
+    },
+    {
+        id:4,
         nombre:"Aplicación Portafolio",        
         imagen: "../assets/Aplicacion Portafolio.png",
         descripcion: `Versión alternativa de este portafolio con posibilidad de edición online de las diferentes secciones a través de la conexión a una 
@@ -36,7 +48,7 @@ export const Proyectos : Proyecto [] = [
         tecnologias: ["Angular", "Spring Boot", "Hibernate", "MySQL"],            
     },
     {
-        id:3,
+        id:5,
         nombre:"Aplicación Personas",        
         imagen: "../assets/App Personas.png",
         descripcion: `Un sitio web para gestionar personas, donde además de poder visualizarlas en una tabla con paginación y filtros, y en un gráfico
@@ -47,7 +59,7 @@ export const Proyectos : Proyecto [] = [
   
     },
     {
-        id:4,
+        id:6,
         nombre:"Base de Datos Universidad",        
         imagen: "../assets/Base de datos.png",
         descripcion: `Una base de datos relacional para una universidad ficticia que incluye relaciones 1-N y N-N, 
