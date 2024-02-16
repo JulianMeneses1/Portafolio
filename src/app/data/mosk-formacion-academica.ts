@@ -44,7 +44,7 @@ export const Formaciones : Formacion [] = [ // Hacemos que la variable Formacion
     },
     {
         id:4,
-        nombre:"Power Platform App Maker Associate", 
+        nombre:"Power Platform App Maker Associate (PL-100)", 
         institucion: "Microsoft",
         fecha_inicio:"Febrero 2023",
         fecha_fin:"Febrero 2023",
